@@ -40,14 +40,11 @@ requirements:
     - six >=1.10.0
     - watchdog >=0.8.3
     - setuptools
+    - protobuf
 
 test:
   imports:
     - wandb
-  commands:
-    - wandb --help
-    - wb --help
-    - wanbd --help
 
 about:
   home: https://github.com/wandb/client
@@ -55,7 +52,7 @@ about:
   license_family: MIT
   license_file: LICENSE
   summary: A CLI and library for interacting with the Weights and Biases API.
-  doc_url: https://docs.wandb.com/
+  doc_url: https://docs.wandb.com/ 
   dev_url: https://github.com/wandb/client
 
 extra:
